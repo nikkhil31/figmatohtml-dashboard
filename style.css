@@ -68,7 +68,7 @@ body {
 
 .left-items ul li {
   list-style: none;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .left-items ul li a {
@@ -96,6 +96,7 @@ body {
 .right {
   padding: 2rem 4%;
   width: 80%;
+  height: 100%;
   margin-left: 20%;
 }
 
@@ -150,4 +151,56 @@ main table tr th {
 
 main table tr:nth-child(even) {
   background-color: #eef2f5;
+}
+
+/*
+ From here, we are starting,
+ Add form styling
+ */
+
+.form-container {
+  margin-top: 10%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 30%);
+  justify-content: center;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-container .form-element {
+  outline: none;
+  width: 95%;
+  height: 35px;
+  margin-top: 0.2rem;
+  margin-bottom: 02rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 5px;
+  color: #696868;
+  font-weight: lighter;
+}
+
+.form-container .textarea {
+  width: 98%;
+  height: 100px;
+  resize: vertical;
+}
+.span-2 {
+  grid-column: span 2;
+}
+
+.submit-btn {
+  justify-self: center;
+}
+
+input[type="submit"] {
+  background: none;
+  outline: none;
+  border: 1px solid #414141;
+  padding: 1rem;
+  border-radius: 10px;
 }
