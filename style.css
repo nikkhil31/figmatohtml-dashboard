@@ -63,12 +63,12 @@ body {
 
 .left .left-items {
   flex: 1;
-  margin-top: 2rem;
+  /* margin-top: 2/rem; */
 }
 
 .left-items ul li {
   list-style: none;
-  margin-top: 2rem;
+  margin-top: 18%;
 }
 
 .left-items ul li a {
@@ -159,10 +159,10 @@ main table tr:nth-child(even) {
  */
 
 .form-container {
-  margin-top: 10%;
+  margin-top: 1.5rem;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 30%);
+  grid-template-columns: repeat(2, 50%);
   justify-content: center;
 }
 
@@ -198,6 +198,7 @@ main table tr:nth-child(even) {
 }
 
 input[type="submit"] {
+  width: 100px;
   background: none;
   outline: none;
   border: 1px solid #414141;
